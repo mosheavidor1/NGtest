@@ -65,18 +65,28 @@ public class NgMain {
 
         PolicyTest.TestScreen(driver);
 
+        Thread.sleep(3000);
+
+        driver.get("https://portal.stg.tw-test.net/#/operations?menuKey=swg-customer-home&stackKey=");
 
 
     }
+
+
+
+
 
 
     @Test
 
     public void Test04_Erase() throws InterruptedException {
+
+
         ErasePolicy.EraseP(driver);
 
-
     }
+    }
+
 
 
 //    @AfterSuite
@@ -86,6 +96,6 @@ public class NgMain {
 
 
 
-}
+
 
 

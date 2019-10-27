@@ -73,6 +73,8 @@ driver.findElement(By.cssSelector("twa-datalist-item.flex:nth-child(5) > div:nth
 
 //This one is for Rule Type
 
+         //   driver.findElement(By.xpath("/html/body/div[1]/div[17]/div/div/div/div[2]/div/div[2]/div/material-list/div/div[5]/twa-select-dropdown-item/span")).click();
+
                         Actions actionObject = new Actions(driver);
                         actionObject = actionObject.sendKeys(Keys.ARROW_DOWN);
                         actionObject.perform();

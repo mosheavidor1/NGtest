@@ -99,6 +99,14 @@ public class PolicyTest {
 
                         } catch (Exception NoSuchElementException) {
                             System.out.println(" THIS URL IS NOT BLOCKED !!!! ");
+
+
+                            Thread.sleep(4000);
+
+                           // driver.close();
+
+
+
                         }
 
 

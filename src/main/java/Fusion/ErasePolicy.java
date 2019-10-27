@@ -11,30 +11,31 @@ public class ErasePolicy {
 
 
 
-        Thread.sleep(4000);
-      driver.findElement(By.cssSelector("#customerSearchInput")).click();
 
-       driver.get("https://portal.stg.tw-test.net/#/operations?menuKey=swg-customer-home&stackKey=swg-policies");
+//
+//      driver.findElement(By.cssSelector("#customerSearchInput")).click();
+//
+//       driver.get("https://portal.stg.tw-test.net/#/operations?menuKey=swg-customer-home&stackKey=swg-policies");
 
 
 //Step one login
-        driver.get("https://portal.stg.tw-test.net/#/operations?menuKey=swg-customer-home&stackKey=");
-
-
-        driver.manage().window().maximize();
-
-        Thread.sleep(4000);
-
-        driver.findElement(By.cssSelector("#login-username--material-input")).sendKeys("twSuperAdmin");
-
-        Thread.sleep(4000);
-
-        driver.findElement(By.cssSelector("#login-password")).click();
-        driver.findElement(By.cssSelector("#login-password")).sendKeys("P@ssw0rd1");
-
-        Thread.sleep(4000);
-
-        driver.findElement(By.cssSelector("#login-submit-button--material-button")).click();
+//        driver.get("https://portal.stg.tw-test.net/#/operations?menuKey=swg-customer-home&stackKey=");
+//
+//
+//        driver.manage().window().maximize();
+//
+//        Thread.sleep(4000);
+//
+//        driver.findElement(By.cssSelector("#login-username--material-input")).sendKeys("twSuperAdmin");
+//
+//        Thread.sleep(4000);
+//
+//        driver.findElement(By.cssSelector("#login-password")).click();
+//        driver.findElement(By.cssSelector("#login-password")).sendKeys("P@ssw0rd1");
+//
+//        Thread.sleep(4000);
+//
+//        driver.findElement(By.cssSelector("#login-submit-button--material-button")).click();
 
         //Step two configure
         Thread.sleep(30000);
